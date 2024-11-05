@@ -3,19 +3,24 @@ import { useState } from "react";
 import Login from "./Login";
 import Logout from "./Logout";
 import { useAuth } from "../context/AuthProvider";
+import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar() 
+{
   const [authUser, setAuthUser] = useAuth();
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
   const element = document.documentElement;
   useEffect(() => {
-    if (theme === "dark") {
+    if (theme === "dark") 
+    {
       element.classList.add("dark");
       localStorage.setItem("theme", "dark");
       document.body.classList.add("dark");
-    } else {
+    } 
+    else
+    {
       element.classList.remove("dark");
       localStorage.setItem("theme", "light");
       document.body.classList.remove("dark");
@@ -39,23 +44,23 @@ function Navbar() {
   const navItems = (
     <>
       <li>
-        <a href="/">Home</a>
+        <Link to = "/">Home </Link>
       </li>
       <li>
-        <a href="/course">Course</a>
+        < Link to = "/course">Course</Link>
       </li>
       <li>
-        <a>Contact</a>
+        <Link to = "/Contact">Contact</Link>
       </li>
       <li>
-        <a>About</a>
+        <Link to = "/About"> About</Link>
       </li>
     </>
   );
   return (
     <>
       <div
-        className={` max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${
+        className={` max-w-screen-2xl container mx-auto md:px-20 px-4 dark bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${
           sticky
             ? "sticky-navbar shadow-md bg-base-200 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
             : ""
@@ -93,9 +98,9 @@ function Navbar() {
             </div>
             <a className=" text-2xl font-bold cursor-pointer">bookStore</a>
           </div>
-          <div className="navbar-end space-x-3">
+          <div className="navbar-end space-x-5 ">
             <div className="navbar-center hidden lg:flex">
-              <ul className="menu menu-horizontal px-1">{navItems}</ul>
+              <ul className=" text-lg menu menu-horizontal px-1">{navItems}</ul>
             </div>
             <div className="hidden md:block">
               <label className=" px-3 py-2 border rounded-md flex items-center gap-2">

@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import Course from "../components/Course";
 import Footer from "../components/Footer";
 function Courses() {

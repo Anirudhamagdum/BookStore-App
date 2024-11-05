@@ -1,0 +1,83 @@
+[
+    {
+      "_id": "65f7348314d47252a6a2b66d",
+      "id": 1,
+      "name": "Story Book",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books"
+    },
+    {
+      "_id": "65f7348314d47252a6a2b66e",
+      "id": 2,
+      "name": "Indian History",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "price": 0,
+      "category": "Free",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books"
+    },
+    {
+      "_id": "65f7348314d47252a6a2b66f",
+      "id": 3,
+      "name": "Music Book",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "price": 198,
+      "category": "Song",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books."
+    },
+
+
+
+
+    {
+        "_id": "65f7348314d47252a6a2b66g",
+        "id": 4,
+        "name": "Horror stories",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price": 198,
+        "category": "entertainment",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books."
+    },
+
+    {
+        "_id": "65f7348314d47252a6a2b66h",
+        "id": 5,
+        "name": "Poems",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price": 199,
+        "category": "Hobby",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books."
+    },
+
+    {
+        "_id": "65f7348314d47252a6a2b66i",
+        "id": 6,
+        "name": "Memes Book",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price": 399,
+        "category": "Fun",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books."
+    },
+
+    {
+        "_id": "65f7348314d47252a6a2b66j",
+        "id": 7,
+        "name": "Fairy tales",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price": 599,
+        "category": "Entertainment",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books."
+    },
+    {
+        "_id": "65f7348314d47252a6a2b66e",
+        "id": 8,
+        "name": "Magic Book",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books."
+      }
+
+]
+  
